@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 set -x
-docker run -d -p 5000:80 --name my-apache-php-app -v /newrepo php:7.2-apache
+docker run -d -p 5000:80 --name my-apache-php-app -v /testing1 php:7.2-apache
 sleep 1
 set +x
 
